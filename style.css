@@ -4,6 +4,15 @@
 }
 
 :root,
+
+[data-selected-theme="Gruvbox-Dark"] {
+  --color-background: #282828;
+  --color-bg-image: url("images/bg_gruvbox.png");
+  --color-fg-image: url("images/fg_gruvbox.png");
+  --color-text: #ebdbb2;
+  --color-accent: #d65d0e;
+}
+
 [data-selected-theme="Catppuccin-Mocha"] {
   --color-background: #1e1e2e;
   --color-bg-image: url("images/bg_catppuccin.png");
@@ -20,13 +29,6 @@
   --color-accent: #50FA7B;
 }
 
-[data-selected-theme="Gruvbox-Dark"] {
-  --color-background: #282828;
-  --color-bg-image: url("images/bg_gruvbox.png");
-  --color-fg-image: url("images/fg_gruvbox.png");
-  --color-text: #ebdbb2;
-  --color-accent: #d65d0e;
-}
 
 [data-selected-theme="Nord"] {
   --color-background: #2E3440;
